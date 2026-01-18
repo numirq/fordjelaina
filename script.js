@@ -49,7 +49,7 @@ function typeTitle() {
   type();
 }
 
-document.addEventListener("DOMContentLoaded", typeWriter);
+typeWriter();
 
 yesButton.addEventListener("click", handleYesClick);
 
