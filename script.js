@@ -12,45 +12,6 @@ const MAX_IMAGES = 6;
 let play = true;
 let noCount = 0;
 
-function typeWriter() {
-  const text = "Hey Djelaina I have a reaaaaaaaally important question for you";
-  let index = 0;
-  headerElement.innerHTML = "";
-  headerElement.style.opacity = "1";
-
-  function type() {
-    if (index < text.length) {
-      headerElement.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(type, 50);
-    } else {
-      
-      typeTitle();
-    }
-  }
-
-  type();
-}
-
-function typeTitle() {
-  const text = "Will you be my Valentine?";
-  let index = 0;
-  titleElement.innerHTML = "";
-  titleElement.style.opacity = "1";
-
-  function type() {
-    if (index < text.length) {
-      titleElement.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(type, 50);
-    }
-  }
-
-  type();
-}
-
-document.addEventListener("DOMContentLoaded", typeWriter);
-
 yesButton.addEventListener("click", handleYesClick);
 
 noButton.addEventListener("click", function () {
