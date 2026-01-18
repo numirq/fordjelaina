@@ -13,7 +13,7 @@ let play = true;
 let noCount = 0;
 
 function typeWriter() {
-  const text = "Hey Tiara I have a reaaaaaaaally important question for you";
+  const text = "Hey Djelaina I have a reaaaaaaaally important question for you";
   let index = 0;
   headerElement.innerHTML = "";
   headerElement.style.opacity = "1";
