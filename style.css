@@ -34,6 +34,7 @@ body {
   color: #f53699;
   text-align: center;
   margin-bottom: 2rem;
+  opacity: 0;
 }
 
 .buttons {
@@ -74,4 +75,6 @@ h1.header {
   color: #f53699;
   text-align: center;
   margin: 2rem;
+  min-height: 4rem;
+  opacity: 0;
 }
