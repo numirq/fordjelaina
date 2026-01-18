@@ -24,6 +24,7 @@ function typeWriter() {
       index++;
       setTimeout(type, 50);
     } else {
+      
       typeTitle();
     }
   }
